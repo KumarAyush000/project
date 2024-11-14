@@ -33,25 +33,31 @@
             <h2>Choose Your Plan</h2>
             <div class="plans-grid">
                 <div class="plan">
+                    <div class="basic">
                     <h2>Basic Plan</h2>
                     <b>Monthly Plan</b>
                     <p>Access to basic features and workout plans.</p>
                     <p>Price: &#8377  949/month</p>
                     <a href="#" class="btn">Select Plan</a>
+                    </div>
                 </div>
                 <div class="plan">
+                    <div class="gold">
                     <h2>Gold Plan</h2>
                     <b>3 Months Plan</b>
-                    <p>Access to all features, personalized coaching, and nutrition tracking.</p>
+                    <p>Access to all features, personalized coaching.</p>
                     <p>Price: &#8377  2499/month</p>
                     <a href="#" class="btn">Select Plan</a>
+                    </div>
                 </div>
                 <div class="plan">
+                    <div class="diamond">
                     <h2>Diamond Plan</h2>
                     <b>6 Months Plan</b>
-                    <p>All Pro features plus exclusive content and community access.</p>
+                    <p>All Pro features plus exclusive content.</p>
                     <p>Price: &#8377  4449/month</p>
                     <a href="#" class="btn">Select Plan</a>
+                    </div>
                 </div>
             </div>
         </div>
