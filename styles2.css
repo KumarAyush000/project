@@ -1,0 +1,167 @@
+/* Base styles */
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Navigation I need */
+  nav {
+    background: #000;
+    color: white;
+    padding: 5px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav .navcontainer {
+    display: flex;
+    justify-content: space-between; /* This will space the logo and nav items apart */
+    align-items: center; /* This ensures they are vertically centered */
+}
+
+
+  
+  nav h1 {
+    margin: 0;
+    margin-left: 80px;
+    color:white;
+  }
+
+  nav h1 a {
+    color: white; /* Ensure the color is white */
+    text-decoration: none; /* Remove underline */
+}
+
+nav h1 a:active, nav h1 a:focus {
+    color: white; /* Keep the color white when clicked or focused */
+}
+
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-left: auto; /* This pushes the ul to the right */
+}
+  
+  nav ul li {
+    margin-left: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.1s;
+  }
+  
+  nav ul li a:hover {
+    background: white;
+    color: #ff4c4c;
+  }
+  
+  .menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .menu-toggle .hamburger {
+    width: 25px;
+    height: 3px;
+    background: white;
+    margin: 5px 0;
+  }
+  
+  /* Header */
+  header {
+    background: #ff4c4c;
+    color: white;
+    padding: 80px 20px; /* Existing padding */
+    padding-left: 80px; /* Add left padding to move content to the right */
+}
+    
+  .image-content {
+    flex: 1;
+    min-width: 300px;
+    text-align: right;
+  }
+
+  .header-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  @media (max-width: 768px) {
+    nav ul {
+      flex-direction: column;
+      display: none;
+    }
+  
+    nav ul.active {
+      display: flex;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  
+    .menu-toggle {
+      display: flex;
+    }
+  
+  
+    .text-content,
+    .image-content {
+      text-align: center;
+      flex: 1 0 100%;
+    }
+  
+    header h1 {
+      font-size: 2.5em;
+    }
+  
+    header p {
+      font-size: 1.2em;
+    }
+  
+    .header-image {
+      max-width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 2em;
+    }
+  
+    header p {
+      font-size: 1em;
+    }
+  }  
+
+  .section {
+    text-align: center; /* Center align text and inline elements */
+}
+
+.image1 {
+    display: inline-block; /* Make the image container inline */
+    margin: 10px 0; /* Add vertical margin for spacing */
+    padding : 20px;
+}
+
+.image1 img {
+    width: 404px; /* Keep the image width */
+    height: 296px; /* Keep the image height */
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image within the container */
+}

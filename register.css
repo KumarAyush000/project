@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+    padding-top: 3mm;
+    background-color: white;
+}
+
+.header {
+    color: #ff4c4c;
+}
+.box {
+    border: 5px solid;
+    border-radius: 25px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background: white;
+}
+.input-group {
+    background: white;
+    background-color: white;
+}
+.input-group.label {
+    background: white;
+}
+a {
+    color: #ff4c4c;
+    text-decoration: none;
+}

@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0;
+    flex-direction: column; /* Ensure the layout is vertical */
+}
+
+.login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 300px; 
+    margin: auto; /* Center the container */
+}
+h2 {
+    text-align: center;
+    color: #ff4c4c; /* Header color */
+}
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff4c4c; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff4c4c; /* Button hover color */
+}
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    width: 60%;
+    height: 10%;
+    padding-top: 0%;
+    padding-bottom: 0cm;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+}
