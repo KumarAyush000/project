@@ -146,6 +146,9 @@
         <header>
         <h1 class="head-border" style="background-color: black;">Community</h1>
             <p>Join our community for motivation and support from fellow fitness enthusiasts!</p>
+            <div class="image1">
+            <img src="./images/community.gif" alt="community image">
+        </div>
         </header>
         <h3>Join Our Community</h3>
         <ul>
