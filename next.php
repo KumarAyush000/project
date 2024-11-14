@@ -123,6 +123,15 @@
         <header>
         <h1 class="head-border" style="background-color: black;">Real-Time Progress Training</h1>
             <p>Keep track of your fitness journey and monitor your progress!</p>
+            <div class="image1">
+            <img src="./images/realtime1.gif" alt="realtime image">
+        </div>
+        <div class="image1">
+            <img src="./images/njutrition2.gif" alt="workout image">
+        </div>
+        <div class="image1">
+            <img src="./images/nutrition3.gif" alt="workout image">
+        </div>
         </header>
         <h3>Tracking Tools</h3>
         <ul>
