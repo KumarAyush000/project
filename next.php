@@ -133,12 +133,14 @@
             <img src="./images/realtime3.webp" alt="realtime image">
         </div>
         </header>
+        <div class="nutrition-style">
         <h3>Tracking Tools</h3>
         <ul>
             <li>Use apps to log workouts and nutrition.</li>
             <li>Set measurable goals: weight loss, muscle gain, or fitness achievements.</li>
             <li>Regularly assess your progress with fitness tests and measurements.</li>
         </ul>
+        </div>
     </div>
 
     <!-- Community Support Section -->
@@ -150,12 +152,14 @@
             <img src="./images/community.gif" alt="community image">
         </div>
         </header>
+        <div class="nutrition-style">
         <h3>Join Our Community</h3>
         <ul>
             <li>Participate in group workouts and challenges.</li>
             <li>Share your progress and get feedback from others.</li>
             <li>Access forums for tips, advice, and motivation.</li>
         </ul>
+        </div>
     </div>
 <!--footer part-->
 <footer>
