@@ -127,10 +127,10 @@
             <img src="./images/realtime1.gif" alt="realtime image">
         </div>
         <div class="image1">
-            <img src="./images/njutrition2.gif" alt="workout image">
+            <img src="images/realtime2.gif" alt="realtime image">
         </div>
         <div class="image1">
-            <img src="./images/nutrition3.gif" alt="workout image">
+            <img src="./images/realtime3.webp" alt="realtime image">
         </div>
         </header>
         <h3>Tracking Tools</h3>
