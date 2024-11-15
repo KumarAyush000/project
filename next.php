@@ -14,6 +14,7 @@
         <div class="navcontainer">
             <h1><a href="index.php">Fitlife Pro</a></h1>
             <ul>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#workout">Workout</a></li>
                 <li><a href="#nutrition">Nutrition</a></li>
                 <li><a href="plan.php">Choose Plan</a></li>

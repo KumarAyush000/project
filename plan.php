@@ -13,6 +13,7 @@
         <div class="container">
             <h1 class="logo"><a href="index.php">FitLife Pro</a></h1>
             <ul>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="#choose-plan">Choose Plan</a></li>
                 <li><a href="index.php">Features</a></li>
                 <li><a href="index.php">Testimonials</a></li>
