@@ -38,7 +38,7 @@
                     <h2>Basic Plan</h2>
                     <b>Monthly Plan</b>
                     <p>Access to basic features and workout plans.</p>
-                    <p>Price: &#8377  949/month</p>
+                    <p>Price: <b>&#8377  949</b>/month</p>
                     <a href="#" class="btn">Select Plan</a>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                     <h2>Gold Plan</h2>
                     <b>3 Months Plan</b>
                     <p>Access to all features, personalized coaching.</p>
-                    <p>Price: &#8377  2499/month</p>
+                    <p>Price: <b>&#8377  2499</b>/month</p>
                     <a href="#" class="btn">Select Plan</a>
                     </div>
                 </div>
@@ -56,7 +56,7 @@
                     <h2>Diamond Plan</h2>
                     <b>6 Months Plan</b>
                     <p>All Pro features plus exclusive content.</p>
-                    <p>Price: &#8377  4449/month</p>
+                    <p>Price: <b>&#8377  4449/month</p>
                     <a href="#" class="btn">Select Plan</a>
                     </div>
                 </div>
