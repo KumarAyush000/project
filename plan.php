@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitLife Pro</title>
     <link rel="stylesheet" href="plan.css">
+    <script>
+        // JavaScript function to open the payment page
+        function openPaymentPage(planName) {
+            // Here you can specify the URL of your payment page
+            const paymentUrl = "payment.php"; // Change this to your actual payment page URL
+            alert(`You have selected the ${planName}. Redirecting to payment page...`);
+            window.location.href = paymentUrl; // Redirect to payment page
+        }
+    </script>
 </head>
 <body>
 
@@ -39,7 +48,7 @@
                     <b>Monthly Plan</b>
                     <p>Access to basic features and workout plans.</p>
                     <p>Price: <b>&#8377  949</b>/month</p>
-                    <a href="#" class="btn">Select Plan</a>
+                    <a href="#" class="btn" onclick="openPaymentPage('Basic Plan')">Select Plan</a>
                     </div>
                 </div>
                 <div class="plan">
@@ -48,7 +57,7 @@
                     <b>3 Months Plan</b>
                     <p>Access to all features, personalized coaching.</p>
                     <p>Price: <b>&#8377  2499</b>/month</p>
-                    <a href="#" class="btn">Select Plan</a>
+                    <a href="#" class="btn" onclick="openPaymentPage('Gold Plan')">Select Plan</a>
                     </div>
                 </div>
                 <div class="plan">
@@ -56,8 +65,8 @@
                     <h2>Diamond Plan</h2>
                     <b>6 Months Plan</b>
                     <p>All Pro features plus exclusive content.</p>
-                    <p>Price: <b>&#8377  4449/month</p>
-                    <a href="#" class="btn">Select Plan</a>
+                    <p>Price: <b>&#8377  4449</b>/month</p>
+                    <a href="#" class="btn" onclick="openPaymentPage('Diamond Plan')">Select Plan</a>
                     </div>
                 </div>
             </div>
