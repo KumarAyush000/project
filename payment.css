@@ -14,6 +14,7 @@ body {
     line-height: 1.6;
 }
 
+
 /* Container for the payment form */
 .container {
     max-width: 600px;
@@ -79,4 +80,13 @@ input[type="email"] {
     h2 {
         font-size: 24px; /* Smaller heading on small screens */
     }
+}
+
+h1 a {
+   color:black;
+   text-decoration: none;
+}
+
+h1 a:hover {
+    color:black;
 }

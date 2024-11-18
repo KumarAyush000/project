@@ -9,6 +9,7 @@
 <body>
 
     <div class="container">
+        <h1><a href="plan.php">Fitlife Pro</a></h1>
         <h2>Payment Information</h2>
         <form action="process_payment.php" method="POST">
             <div class="form-group">
